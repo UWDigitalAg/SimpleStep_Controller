@@ -1,5 +1,7 @@
-# Step Motor Controller
-For controlling a step motor with command line, you can use linact.py or use MapperGUI.py for a graphical interface.
+Step Motor control
+==================
+
+For controlling a step motor with command line, you can use linact.py or using MapperGUI.py for a graphical interface.
 
 Pre-requisites for MapperGUI.py
 -------------------------------
@@ -13,8 +15,14 @@ The "Update x Velocity" button allows the user to set the speed of the step moto
 
 When user click on the "Initialize" button, the stepper is initialized at its current position. The stepper is initialized at the position 0 when the program is launched.
 
-When user click "Shutdown" button, the program is closed and the stepper is stopped return to its initial position.
+When user click "Shutdown" button, the program is closed and the steppers will return to its initial position.
 
 Pre-requisites for linact.py
 ----------------------------
 periphery.py
+
+Before user can control the step motor, the user must initialize the stepper at its current position.
+
+PDF Manual
+----------
+Simple Step Product Manual-2.pdf
