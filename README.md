@@ -7,15 +7,15 @@ Pre-requisites for MapperGUI.py
 -------------------------------
 inact.py and install PySimpleGUI (https://pysimplegui.readthedocs.io/en/latest/)
 
-GUI allow user to control all 3 axis of the step motor (with or without checking the limit), give the current position of the step motor, current speed, control the speed of the step motor and initializes the stepper at its current position.
+This GUI allows you to control a step motor in three axes (X, Y and Z) and adjust its speed and position.
 
-The "Move" button allows the user to move the step motor. The user can move the step motor in the 3 axis (X, Y and Z) and in the 2 directions (positive and negative).
+* To move the step motor, use the “Move” button. You can select the axis and direction of the movement. The program will check the range limit before performing the movement, unless you check the “Non safe mode” box.
 
-The "Update Velocity" button allows the user to set the speed of the step motor. The speed is set in steps per second.
+* To set the speed of the step motor, use the “Update Velocity” button. You can enter the speed in steps per second in the text field.
 
-When user click on the "Initialize" button, the stepper is initialized at its current position. The stepper is initialized at the position 0 when the program is launched.
+* To initialize the step motor at its current position, use the “Initialize” button. The step motor is initialized at position 0 when the program is launched.
 
-When user click "Shutdown" button, the program is closed and the steppers will return to its initial position.
+* To exit the program and return the step motor to its initial position, use the “Shutdown” button.
 
 Pre-requisites for linact.py
 ----------------------------
